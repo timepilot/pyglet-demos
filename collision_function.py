@@ -1,36 +1,13 @@
+
+#This work is licensed under a 
+#Creative Commons Attribution-NonCommercial 2.5 License
+#(the same as XKCD) so do whatever you want with it 
+#as long as it stays free
+#written by Marty S. (marty at geodex dot org) 
+#
+
+
 import math
-
-
-# private function doCollision(ball1:Ball, ball2:Ball):void
-# {
-    # var xDist:Number = ball1.x - ball2.x
-    # var yDist:Number = ball1.y - ball2.y
-    # var collisionAngle:Number = Math.atan2(yDist, xDist)
- 
-    # var magBall1:Number = Math.sqrt(ball1.xSpeed*ball1.xSpeed+ball1.ySpeed*ball1.ySpeed)
-    # var magBall2:Number = Math.sqrt(ball2.xSpeed*ball2.xSpeed+ball2.ySpeed*ball2.ySpeed)
- 
-    # var angleBall1:Number = Math.atan2(ball1.ySpeed, ball1.xSpeed)
-    # var angleBall2:Number = Math.atan2(ball2.ySpeed, ball2.xSpeed)
- 
-    # var xSpeedBall1:Number = magBall1 * Math.cos(angleBall1-collisionAngle)
-    # var ySpeedBall1:Number = magBall1 * Math.sin(angleBall1-collisionAngle)
-    # var xSpeedBall2:Number = magBall2 * Math.cos(angleBall2-collisionAngle)
-    # var ySpeedBall2:Number = magBall2 * Math.sin(angleBall2-collisionAngle)
- 
-    # var finalxSpeedBall1:Number = ((ball1.mass-ball2.mass)*xSpeedBall1+(ball2.mass+ball2.mass)*xSpeedBall2)/(ball1.mass+ball2.mass)
-    # var finalxSpeedBall2:Number = ((ball1.mass+ball1.mass)*xSpeedBall1+(ball2.mass-ball1.mass)*xSpeedBall2)/(ball1.mass+ball2.mass)
-    # var finalySpeedBall1:Number = ySpeedBall1
-    # var finalySpeedBall2:Number = ySpeedBall2
- 
-    # ball1.xSpeed = Math.cos(collisionAngle)*finalxSpeedBall1+Math.cos(collisionAngle+Math.PI/2)*finalySpeedBall1
-    # ball1.ySpeed = Math.sin(collisionAngle)*finalxSpeedBall1+Math.sin(collisionAngle+Math.PI/2)*finalySpeedBall1
-    # ball2.xSpeed = Math.cos(collisionAngle)*finalxSpeedBall2+Math.cos(collisionAngle+Math.PI/2)*finalySpeedBall2
-    # ball2.ySpeed = Math.sin(collisionAngle)*finalxSpeedBall2+Math.sin(collisionAngle+Math.PI/2)*finalySpeedBall2
-# }
-
-	# self.x = self.x + speed*math.cos(angle)*dt
-		# self.y = self.y + speed*math.sin(angle)*dt
 
 class unit():
 	def __init__(self,x,y,vector):

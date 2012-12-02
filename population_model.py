@@ -1,10 +1,21 @@
+#This work is licensed under a 
+#Creative Commons Attribution-NonCommercial 2.5 License
+#(the same as XKCD) so do whatever you want with it 
+#as long as it stays free
+#written by Marty S. (marty at geodex dot org) 
+#
+#Population model, runs a population and it changes based on birth/death rates 
+#and a hunger factor
+
+
+
 
 import random
 import math
 from collections import Counter
 import time
 
-#import death rates
+
 
 
 #person object, tracks various stats and status updates like death/child birth etc

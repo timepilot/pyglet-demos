@@ -1,3 +1,12 @@
+
+#This work is licensed under a 
+#Creative Commons Attribution-NonCommercial 2.5 License
+#(the same as XKCD) so do whatever you want with it 
+#as long as it stays free
+#written by Marty S. (marty at geodex dot org) 
+#
+#test file is just a working file with whatever I happen to be working with at the time, may not run well
+#or do anything
 import pyglet
 from pyglet.window import key
 import random
