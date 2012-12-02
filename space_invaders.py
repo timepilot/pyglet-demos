@@ -6,6 +6,9 @@ import rabbyt
 import math
 from rabbyt import lerp, wrap
 
+#Space Invaders like demo, still in the early stages but the basic mechanics are there
+#need better shooting code
+
 
 #create a window
 config = pyglet.gl.Config(resizable=True,depth_size=24)
